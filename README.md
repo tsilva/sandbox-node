@@ -1,12 +1,12 @@
 <div align="center">
-  <img src="logo.png" alt="sandbox-node" width="512"/>
+  <img src="logo.png" alt="sandbox-node" width="512">
 
   [![Node.js](https://img.shields.io/badge/Node.js-18+-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
   [![Express](https://img.shields.io/badge/Express-4.x-000000?logo=express&logoColor=white)](https://expressjs.com/)
   [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
   [![Dev Container](https://img.shields.io/badge/Dev%20Container-Ready-blue?logo=docker&logoColor=white)](https://containers.dev/)
 
-  **A ready-to-use Node.js Express sandbox for rapid prototyping and experimentation**
+  **🚀 A ready-to-use Node.js Express sandbox for rapid prototyping and experimentation ⚡**
 
   [Quick Start](#quick-start) · [API Reference](#api-endpoints) · [Development](#development)
 </div>
