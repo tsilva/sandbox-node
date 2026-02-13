@@ -6,7 +6,7 @@
   [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
   [![Dev Container](https://img.shields.io/badge/Dev%20Container-Ready-blue?logo=docker&logoColor=white)](https://containers.dev/)
 
-  **🚀 A ready-to-use Node.js Express sandbox for rapid prototyping and experimentation ⚡**
+  **🟢 Express.js sandbox with Dev Container setup 🐳**
 
   [Quick Start](#quick-start) · [API Reference](#api-endpoints) · [Development](#development)
 </div>
