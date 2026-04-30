@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="logo.png" alt="sandbox-node" width="512">
+  <img src="https://raw.githubusercontent.com/tsilva/sandbox-node/main/logo.png" alt="sandbox-node" width="512">
 
   [![Node.js](https://img.shields.io/badge/Node.js-18+-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
   [![Express](https://img.shields.io/badge/Express-4.x-000000?logo=express&logoColor=white)](https://expressjs.com/)
