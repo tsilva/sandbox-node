@@ -6,17 +6,13 @@
   "main": "src/index.js",
   "scripts": {
     "preinstall": "node -e \"const ua = process.env.npm_config_user_agent || ''; if (!ua.startsWith('pnpm/')) { console.error('Use pnpm for this repo.'); process.exit(1); }\"",
-    "setup": "chmod +x ./setup-nvm.sh && ./setup-nvm.sh",
+    "check": "node --check src/index.js && node --check test/server.test.js",
     "start": "node src/index.js",
-    "dev": "nodemon src/index.js",
-    "test": "jest"
+    "dev": "node --watch src/index.js",
+    "test": "node --test"
   },
   "dependencies": {
     "dotenv": "^17.3.1",
     "express": "^5.2.1"
-  },
-  "devDependencies": {
-    "jest": "^30.3.0",
-    "nodemon": "^3.1.14"
   }
 }
