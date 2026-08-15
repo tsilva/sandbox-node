@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/tsilva/sandbox-node/main/logo.png" alt="sandbox-node" width="512">
 
   [![Node.js](https://img.shields.io/badge/Node.js-18+-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
-  [![Express](https://img.shields.io/badge/Express-4.x-000000?logo=express&logoColor=white)](https://expressjs.com/)
+  [![Express](https://img.shields.io/badge/Express-5.x-000000?logo=express&logoColor=white)](https://expressjs.com/)
   [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
   [![Dev Container](https://img.shields.io/badge/Dev%20Container-Ready-blue?logo=docker&logoColor=white)](https://containers.dev/)
 
@@ -21,9 +21,9 @@ sandbox-node provides a pre-configured Node.js development environment that runs
 
 - **Zero Configuration** - Works out of the box with sensible defaults
 - **Dev Container Ready** - Consistent development environment across machines
-- **Hot Reloading** - Automatic server restart on file changes with nodemon
+- **Hot Reloading** - Automatic server restart with Node's built-in watch mode
 - **Environment Variables** - Built-in dotenv support for configuration
-- **Testing Ready** - Jest pre-configured for unit testing
+- **Testing Ready** - Node's built-in test runner with no test-framework dependencies
 
 ## Quick Start
 
@@ -34,7 +34,7 @@ sandbox-node provides a pre-configured Node.js development environment that runs
 3. Start the development server:
 
 ```bash
-npm run dev
+pnpm dev
 ```
 
 ### Option 2: Local Development
@@ -45,10 +45,11 @@ git clone https://github.com/tsilva/sandbox-node.git
 cd sandbox-node
 
 # Install dependencies
-npm install
+corepack enable
+pnpm install --frozen-lockfile
 
 # Start the development server
-npm run dev
+pnpm dev
 ```
 
 The server starts at `http://localhost:3000`.
@@ -73,10 +74,11 @@ Returns a welcome message.
 
 | Command | Description |
 |---------|-------------|
-| `npm install` | Install dependencies |
-| `npm start` | Run the server in production mode |
-| `npm run dev` | Run with hot-reloading (nodemon) |
-| `npm test` | Run Jest tests |
+| `pnpm install --frozen-lockfile` | Install the committed dependency graph |
+| `pnpm start` | Run the server in production mode |
+| `pnpm dev` | Run with Node's built-in watch mode |
+| `pnpm check` | Check JavaScript syntax |
+| `pnpm test` | Run the built-in Node.js test suite |
 
 ### Environment Variables
 
@@ -107,7 +109,7 @@ For Dev Container usage:
 
 For local development:
 - [Node.js](https://nodejs.org/) 18+
-- npm
+- pnpm 10.27.0 through Corepack
 
 ## License
 

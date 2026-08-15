@@ -8,10 +8,11 @@ This is a Node.js Express server sandbox project designed to run in a Dev Contai
 
 ## Development Commands
 
-- `npm install` - Install dependencies (automatically runs via postCreateCommand in Dev Container)
-- `npm start` - Run the server in production mode
-- `npm run dev` - Run the server with nodemon for hot-reloading during development
-- `npm test` - Run Jest tests
+- `pnpm install --frozen-lockfile` - Install the committed dependency graph (automatically runs via postCreateCommand in Dev Container)
+- `pnpm start` - Run the server in production mode
+- `pnpm dev` - Run with Node's built-in watch mode
+- `pnpm check` - Check JavaScript syntax
+- `pnpm test` - Run the built-in Node.js test suite
 
 ## Architecture
 
@@ -35,4 +36,4 @@ This is a Node.js Express server sandbox project designed to run in a Dev Contai
 
 ## Dev Container
 
-This project is designed to run in a VS Code Dev Container. When the container builds, it automatically runs `npm install`. The server can be accessed on port 3000, which is automatically forwarded to the host.
+This project is designed to run in a VS Code Dev Container. When the container builds, it automatically enables Corepack and runs `pnpm install --frozen-lockfile`. The server can be accessed on port 3000, which is automatically forwarded to the host.
