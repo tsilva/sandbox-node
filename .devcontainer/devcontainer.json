@@ -19,6 +19,6 @@
     }
   },
   "forwardPorts": [3000],
-  "postCreateCommand": "npm install",
+  "postCreateCommand": "corepack enable && pnpm install --frozen-lockfile",
   "remoteUser": "node"
 }
