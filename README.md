@@ -1,15 +1,17 @@
-<div align="center">
+<p align="center">
   <img src="https://raw.githubusercontent.com/tsilva/sandbox-node/main/logo.png" alt="sandbox-node" width="512">
+  <br />
+  <!-- repo-tagline:start -->
+  <strong>🟢 Express.js sandbox with Dev Container setup 🐳</strong>
+  <!-- repo-tagline:end -->
+</p>
 
-  [![Node.js](https://img.shields.io/badge/Node.js-18+-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-18+-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
   [![Express](https://img.shields.io/badge/Express-5.x-000000?logo=express&logoColor=white)](https://expressjs.com/)
   [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
   [![Dev Container](https://img.shields.io/badge/Dev%20Container-Ready-blue?logo=docker&logoColor=white)](https://containers.dev/)
 
-  **🟢 Express.js sandbox with Dev Container setup 🐳**
-
   [Quick Start](#quick-start) · [API Reference](#api-endpoints) · [Development](#development)
-</div>
 
 ---
 
