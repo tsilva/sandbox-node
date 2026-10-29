@@ -82,6 +82,8 @@ Returns a welcome message.
 | `pnpm check` | Check JavaScript syntax |
 | `pnpm test` | Run the built-in Node.js test suite |
 
+Dependency overrides retain patched Body Parser and qs versions while keeping Express 5. Run `pnpm test` for server, compressed-JSON and query-serialization compatibility checks, and `pnpm audit` for current dependency advisories. The seven-day release hold and disabled dependency install scripts remain enabled.
+
 ### Environment Variables
 
 Create a `.env` file in the root directory to configure the application:
