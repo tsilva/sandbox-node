@@ -117,4 +117,4 @@ For local development:
 
 ## License
 
-MIT
+[MIT License](LICENSE).
